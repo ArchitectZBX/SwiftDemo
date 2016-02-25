@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0864E01C7AD47D00BFA97C /* ActionSheetAndPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0864DF1C7AD47D00BFA97C /* ActionSheetAndPickerViewViewController.swift */; };
+		7B0864E21C7AEB8E00BFA97C /* UNAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0864E11C7AEB8E00BFA97C /* UNAlertView.swift */; };
 		7B6DBB321C769C76008FBE03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6DBB311C769C76008FBE03 /* AppDelegate.swift */; };
 		7B6DBB341C769C76008FBE03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6DBB331C769C76008FBE03 /* ViewController.swift */; };
 		7B6DBB371C769C76008FBE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6DBB351C769C76008FBE03 /* Main.storyboard */; };
 		7B6DBB391C769C76008FBE03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6DBB381C769C76008FBE03 /* Assets.xcassets */; };
 		7B6DBB3C1C769C76008FBE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6DBB3A1C769C76008FBE03 /* LaunchScreen.storyboard */; };
+		7B6DBB441C769CDE008FBE03 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6DBB431C769CDE008FBE03 /* PickerViewController.swift */; };
+		7B6DBB481C76A8EE008FBE03 /* devices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B6DBB471C76A8EE008FBE03 /* devices.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B0864DF1C7AD47D00BFA97C /* ActionSheetAndPickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetAndPickerViewViewController.swift; sourceTree = "<group>"; };
+		7B0864E11C7AEB8E00BFA97C /* UNAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNAlertView.swift; sourceTree = "<group>"; };
 		7B6DBB2E1C769C76008FBE03 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6DBB311C769C76008FBE03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B6DBB331C769C76008FBE03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		7B6DBB381C769C76008FBE03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B6DBB3B1C769C76008FBE03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B6DBB3D1C769C76008FBE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6DBB431C769CDE008FBE03 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		7B6DBB471C76A8EE008FBE03 /* devices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = devices.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				7B6DBB381C769C76008FBE03 /* Assets.xcassets */,
 				7B6DBB3A1C769C76008FBE03 /* LaunchScreen.storyboard */,
 				7B6DBB3D1C769C76008FBE03 /* Info.plist */,
+				7B6DBB431C769CDE008FBE03 /* PickerViewController.swift */,
+				7B6DBB471C76A8EE008FBE03 /* devices.plist */,
+				7B0864DF1C7AD47D00BFA97C /* ActionSheetAndPickerViewViewController.swift */,
+				7B0864E11C7AEB8E00BFA97C /* UNAlertView.swift */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			files = (
 				7B6DBB3C1C769C76008FBE03 /* LaunchScreen.storyboard in Resources */,
 				7B6DBB391C769C76008FBE03 /* Assets.xcassets in Resources */,
+				7B6DBB481C76A8EE008FBE03 /* devices.plist in Resources */,
 				7B6DBB371C769C76008FBE03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6DBB441C769CDE008FBE03 /* PickerViewController.swift in Sources */,
+				7B0864E21C7AEB8E00BFA97C /* UNAlertView.swift in Sources */,
+				7B0864E01C7AD47D00BFA97C /* ActionSheetAndPickerViewViewController.swift in Sources */,
 				7B6DBB341C769C76008FBE03 /* ViewController.swift in Sources */,
 				7B6DBB321C769C76008FBE03 /* AppDelegate.swift in Sources */,
 			);
@@ -247,7 +263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.everyoo.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,7 +276,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.everyoo.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +304,7 @@
 				7B6DBB421C769C76008FBE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

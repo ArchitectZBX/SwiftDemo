@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+let WScreen = UIScreen.mainScreen().bounds.size.width
+let HScreen = UIScreen.mainScreen().bounds.size.height
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//        let vc = PickerViewController()
+        let vc = ViewController()
+        self.window?.rootViewController = vc
+        self.window?.makeKeyAndVisible()
         return true
     }
 
