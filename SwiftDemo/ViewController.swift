@@ -13,11 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
-        let button = UIButton(frame: CGRect(x: 50, y: 50, width: 100, height: 20))
-        button.backgroundColor = UIColor.blackColor()
-        self.view.addSubview(button)
-        button.setTitle("dianji", forState: UIControlState.Normal)
-        button.addTarget(self, action: Selector("showUI"), forControlEvents: UIControlEvents.TouchUpInside)
+        let v = BezierView()
+        v.frame = UIScreen.mainScreen().bounds
+        self.view.addSubview(v)
+//        let button = UIButton(frame: CGRect(x: 50, y: 50, width: 100, height: 20))
+//        button.backgroundColor = UIColor.blackColor()
+//        self.view.addSubview(button)
+//        button.setTitle("dianji", forState: UIControlState.Normal)
+//        button.addTarget(self, action: Selector("showUI"), forControlEvents: UIControlEvents.TouchUpInside)
     }
     
     func showUI() {

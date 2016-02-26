@@ -16,6 +16,7 @@
 		7B6DBB3C1C769C76008FBE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6DBB3A1C769C76008FBE03 /* LaunchScreen.storyboard */; };
 		7B6DBB441C769CDE008FBE03 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6DBB431C769CDE008FBE03 /* PickerViewController.swift */; };
 		7B6DBB481C76A8EE008FBE03 /* devices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B6DBB471C76A8EE008FBE03 /* devices.plist */; };
+		7BD3EF8D1C80324C00E374CC /* BezierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD3EF8C1C80324C00E374CC /* BezierView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7B6DBB3D1C769C76008FBE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B6DBB431C769CDE008FBE03 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		7B6DBB471C76A8EE008FBE03 /* devices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = devices.plist; sourceTree = "<group>"; };
+		7BD3EF8C1C80324C00E374CC /* BezierView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				7B6DBB471C76A8EE008FBE03 /* devices.plist */,
 				7B0864DF1C7AD47D00BFA97C /* ActionSheetAndPickerViewViewController.swift */,
 				7B0864E11C7AEB8E00BFA97C /* UNAlertView.swift */,
+				7BD3EF8C1C80324C00E374CC /* BezierView.swift */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B6DBB441C769CDE008FBE03 /* PickerViewController.swift in Sources */,
+				7BD3EF8D1C80324C00E374CC /* BezierView.swift in Sources */,
 				7B0864E21C7AEB8E00BFA97C /* UNAlertView.swift in Sources */,
 				7B0864E01C7AD47D00BFA97C /* ActionSheetAndPickerViewViewController.swift in Sources */,
 				7B6DBB341C769C76008FBE03 /* ViewController.swift in Sources */,
